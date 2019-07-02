@@ -25,5 +25,5 @@ hotels: '15'
 resturants: '25'
 museums: '100'
 minutes: '12'
-services-title: Service Offered
-services-subtitle: There is a service.yml that Netlify CMS can edit to change the below
+services-title: Angebote der effect IT GmbH
+services-subtitle: Service for Datacenters
