@@ -1,15 +1,24 @@
-title: Jekyll with Netlify CMS
-subtitle: Static speed, with dynamic content
-intro-title: Editable Static Sites
-intro-subtitle: Update via a web UI
+title: effect IT - Service for Datacenters
+subtitle: We help you to stay competitive
+intro-title: Gemeinsam mit unseren Partnern sorgen wir für eine Reduktion Ihrer IT Ausgaben
+intro-subtitle: IT Wartung
 intro-body: >-
-  Static sites are fast to get up and running and develop on. They are also **performance
-  beasts** but their biggest downside is non technical users editing content. Adding the
-  Netlify CMS to your Jekyll site means clients can update this site via a Web UI. It is
-  no wordpress or Drupal replacement, but gets the job done.
+  Bis zu 60% weniger Wartungskosten im Vergleich zum Hersteller. Sie wissen,
+  dass professionelle Wartung und IT Support Ihres Equipments letztlich einen
+  erheblichen Beitrag zur Profitabilität Ihres Unternehmens beiträgt.
+
+
+  Mit Hardware-Wartung unabhängig von den Herstellern können Sie zusätzliche
+  Kosten vermeiden. Diese Wartung eignet sich nicht für jede Hardware, jedoch
+  können Sie für die meisten Anwendungsfälle Ihr Budget schonen. Ja sogar
+  signifikant reduzieren. Wie bieten für Sie die Hardware-Wartung weltweit an.
 intro-img: /uploads/8649856355_627bcdeadf_h.jpg
 feature-title: This is Editable!
-feature-subtitle: Even a complex layout like this is editable with the Netlify CMS, you won't be having client adjust the layout like [Gutenberg](https://wordpress.org/plugins/gutenberg/), but they can still keep things up to date!
+feature-subtitle: >-
+  Even a complex layout like this is editable with the Netlify CMS, you won't be
+  having client adjust the layout like
+  [Gutenberg](https://wordpress.org/plugins/gutenberg/), but they can still keep
+  things up to date!
 testimonial-title: We are the Best
 testimonial-subtitle: Even these complex icon graphics below can be updated
 hotels: '15'
