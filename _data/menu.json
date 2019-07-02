@@ -12,20 +12,16 @@
       "path": "/gallery/"
     },
     {
-      "text": "News",
-      "path": "/news/"
-    },
-    {
-      "text": "Kontakt",
-      "path": "/contact/"
-    },
-    {
       "text": "Leasing",
       "path": "/data/"
     },
     {
-      "text": "Software as a Service",
+      "text": "SaaS",
       "path": "/docs/"
+    },
+    {
+      "text": "Kontakt",
+      "path": "/contact/"
     }
   ],
   "left": [{
