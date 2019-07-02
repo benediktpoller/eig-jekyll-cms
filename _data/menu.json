@@ -4,11 +4,11 @@
       "path": "/"
     },
     {
-      "text": "Directory",
+      "text": "IT-Wartung",
       "path": "/directory/"
     },
     {
-      "text": "Gallery",
+      "text": "IT Systemhandel",
       "path": "/gallery/"
     },
     {
@@ -16,15 +16,15 @@
       "path": "/news/"
     },
     {
-      "text": "Contact",
+      "text": "Kontakt",
       "path": "/contact/"
     },
     {
-      "text": "Data",
+      "text": "Leasing",
       "path": "/data/"
     },
     {
-      "text": "Documents",
+      "text": "Software as a Service",
       "path": "/docs/"
     }
   ],
@@ -33,7 +33,7 @@
       "path": "/"
     },
     {
-      "text": "Directory",
+      "text": "IT-Wartung",
       "path": "/directory/"
     }
   ]
