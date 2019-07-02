@@ -23,13 +23,3 @@ services:
   - body: '5×5: Lukrieren Sie zusätzlich bis zu 25% Ihres geplanten IT Budgets'
     icon: fa-wifi
     title: 5x5
-  - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod       tempor incididunt
-    icon: fa-map-signs
-    title: Floor Planning
-  - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod       tempor incididunt
-    icon: fa-car
-    title: Parking
