@@ -1,34 +1,28 @@
 services:
-  - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod       tempor incididunt
+  - body: Bis zu 60% weniger Wartungskosten im Vergleich zum Hersteller.
     icon: fa-cutlery
-    title: Catering
-  - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod       tempor incididunt
+    title: IT Wartung
+  - body: 'Refurbished Hardware: Um bis zu 70% günstiger als eine Neuanschaffung'
     icon: fa-bullhorn
-    title: Conference Services
+    title: IT Systemhandel
   - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod       tempor incididunt
+      Das Erfolgskonzept von RadarServices jetzt speziell für Unternehmen mit
+      bis zu 500 Mitarbeitern
     icon: fa-plus
-    title: Room Setup
+    title: Radar Smart Solution
   - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod       tempor incididunt
+      Professionelle Unterstützung bei der Implementierung eines
+      Managementsystems bis hin zur Zertifizierung
     icon: fa-music
-    title: Audio/Visuals
+    title: ISO-Zertifizierung
   - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod       tempor incididunt
+      Günstiges Leasing ermöglicht Ihnen die Anschaffung smarter Technologie
+      ohne Kapitalbindung.
     icon: fa-print
-    title: Printing
-  - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod       tempor incididunt
+    title: Leasing
+  - body: '5×5: Lukrieren Sie zusätzlich bis zu 25% Ihres geplanten IT Budgets'
     icon: fa-wifi
-    title: WiFi
+    title: 5x5
   - body: >-
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
       eiusmod       tempor incididunt
