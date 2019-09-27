@@ -6,174 +6,337 @@ custom_head_owl: true
 custom_head_counterup: true
 ---
 
-<!-- Slider Start -->
-<section id="slider">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-2">
-        <div class="block">
-          <h1 class="animated fadeInUp">{{ site.data.home.title }}</h1>
-          <p class="animated fadeInUp">{{ site.data.home.subtitle }}</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Wrapper Start -->
-<section id="intro">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-7 col-sm-12">
-        <div class="block">
-          <div class="section-title">
-            <h2>{{ site.data.home.intro-title }}</h2>
-            <p>{{ site.data.home.intro-subtitle }}</p>
+<div class="section-space"></div>
+<div class="cd-section" id="headers">
+  <!--     *********     HEADER 3      *********      -->
+  <div class="header-3">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="page-header header-filter">
+            <div class="page-header-image" style="background-image: url('https://www.xing.com/image/4_0_1_fcc169810_3346778_5/thomas-wenhardt-foto.1024x1024.jpg');"></div>
+            <div class="content-center">
+              <div class="container text-left">
+                <div class="content-center">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="iframe-container">
+                        <iframe height="250" src="https://www.youtube.com/embed/X1Gbed7kd3o?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div class="col-md-6 ml-auto mr-auto text-right">
+                      <h1 class="title">effect IT GmbH</h1>
+                      <h4 class="description ">
+                        Gegründet im März 2015 mit der Idee, nachweislich Kosten einzusparen und mehr IT-Budget für wichtige Themen zur Verfügung zu haben.</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          {{ site.data.home.intro-body | markdownify }}
         </div>
-      </div><!-- .col-md-7 close -->
-      <div class="col-md-5 col-sm-12">
-        <div class="block">
-          <img src="{{ site.data.home.intro-img }}" alt="Img">
-        </div>
-      </div><!-- .col-md-5 close -->
-    </div>
-  </div>
-</section>
-
-<section id="feature">
-  <div class="row">
-    <div class="content col-md-6 col-md-offset-6">
-      <h2>{{ site.data.home.feature-title }}</h2>
-      <p>{{ site.data.home.feature-subtitle  | markdownify }}</p>
-      <a href="#" class="btn btn-view-works">Start Planning</a>
-    </div>
-  </div>
-</section>
-
-
-<!-- Content Start -->
-
-<section id="testimonial">
-  <div class="container">
-    <div class="row">
-      <div class="section-title text-center">
-        <h2>{{ site.data.home.testimonial-title }}</h2>
-        <p>{{ site.data.home.testimonial-subtitle }}</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="block">
-          <ul class="counter-box clearfix">
-            <li>
-              <div class="block">
-                <i class="fa fa-home"></i>
-                <h4 class="counter">{{ site.data.home.hotels }}</h4>
-                <span>Professionelle Partner</span>
-              </div>
-            </li>
-            <li>
-              <div class="block">
-                <i class="fa fa-beer"></i>
-                <h4 class="counter">{{ site.data.home.resturants }}</h4>
-                <span>Kunden</span>
-              </div>
-            </li>
-            <li>
-              <div class="block">
-                <i class="fa fa-university"></i>
-                <h4 class="counter">{{ site.data.home.museums }}</h4>
-                <span>Wartungen</span>
-              </div>
-            </li>
-            <li>
-              <div class="block">
-                <i class="fa fa-plane"></i>
-                <h4><span class="counter">{{ site.data.home.minutes }}</span> Minutes</h4>
-                <span>Einsparungen</span>
-              </div>
-            </li>
-
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="testimonial-carousel">
-          <div id="testimonial-slider" class="owl-carousel">
-            <div>
-              <p><i class="fa fa-quote-left" aria-hidden="true"></i> Shoutout to the {{site.data.business.name}} for
-                such a great demo. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
-              <div class="user">
-                <img src="img/twitter-user-1.jpg" alt="Pepole">
-                <p><span>Bob Henson</span> via Twitter</p>
+        <div class="carousel-item">
+          <div class="page-header header-filter">
+            <div class="page-header-image" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Data_Center_c%E1%BB%A7a_CMC_Telecom_%282%29.jpg/1599px-Data_Center_c%E1%BB%A7a_CMC_Telecom_%282%29.jpg');"></div>
+            <div class="content-center">
+              <div class="container">
+                <div class="content-center">
+                  <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto text-center">
+                      <h1 class="title">Hardware-Wartung unabhängig vom Hersteller</h1>
+                      <h4 class="description">Hardware-Wartung und IT Systemhandel <strong>für Ihr Rechenzentrum im Durchschnitt bis zu 50% billiger</strong></h4>
+                      <br />
+                      <h5>Connect with us on:</h5>
+                      <div class="buttons">
+                        <a href="#pablo" class="btn btn-icon btn-neutral btn-danger btn-round mt-2">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#pablo" class="btn btn-icon btn-neutral btn-danger btn-round mt-2">
+                          <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="#pablo" class="btn btn-icon btn-neutral btn-danger btn-round mt-2">
+                          <i class="fab fa-google-plus"></i>
+                        </a>
+                        <a href="#pablo" class="btn btn-icon btn-neutral btn-danger btn-round  mt-2">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div>
-              <p><i class="fa fa-quote-left" aria-hidden="true"></i> Static sites are security fortresses! <i class="fa fa-quote-right"
-                  aria-hidden="true"></i> </p>
-              <div class="user">
-                <img src="img/twitter-user-2.jpg" alt="Pepole">
-                <p><span>Clay Risro</span> via Twitter</p>
-              </div>
-            </div>
-            <div>
-              <p><i class="fa fa-quote-left" aria-hidden="true"></i> I love not having a CMS to have to update all the
-                time. <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
-              <div class="user">
-                <img src="img/twitter-user-3.jpg" alt="Pepole">
-                <p><span>Rose Ray</span> via Twitter</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="page-header header-filter">
+            <div class="page-header-image" style="background-image: url('https://get.pxhere.com/photo/atmosphere-space-crater-meteor-nebula-outer-space-astronomy-universe-planet-comet-destruction-screenshot-venus-force-of-nature-end-of-the-world-doomsday-astronomical-object-armageddon-judgement-day-asteroids-1061256.jpg');"></div>
+            <div class="content-center">
+              <div class="container">
+                <div class="content-center">
+                  <div class="row">
+                    <div class="col-md-6 text-left">
+                      <h1 class="title">Früh wissen was passiert</h1>
+                      <h4 class="description ">RadarService - Managed Security Services der nächsten Generation. Das Frühwarnsystem für Ihre IT.</h4>
+                      <br />
+                      <div class="buttons">
+                        <a href="#pablo" class="btn btn-neutral btn-primary btn-lg mr-1">
+                          <i class="now-ui-icons files_single-copy-04"></i> Weiterlesen...
+                        </a>
+                        <a href="#pablo" class="btn btn-primary btn-lg">
+                          <i class="now-ui-icons arrows-1_share-66"></i> Information anfordern
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <i class="now-ui-icons arrows-1_minimal-left"></i>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <i class="now-ui-icons arrows-1_minimal-right"></i>
+      </a>
     </div>
   </div>
-</section>
-
-{% include call-to-action.html %}
-
-<!-- Service Start -->
-<section id="service">
-  <div class="container">
-    <div class="row">
-      <div class="section-title">
-        <h2>{{ site.data.home.services-title }}</h2>
-        <p>{{ site.data.home.services-subtitle }}</p>
-      </div>
-    </div>
-    <div class="row ">
-      {% for item in site.data.services.services %}
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="fa {{item.icon}}"></i>
-          <h4>{{item.title}}</h4>
-          <p>{{item.body}}</p>
+  <!--     *********    END HEADER 3      *********      -->
+</div>
+<div class="cd-section" id="features">
+  <!--     *********     FEATURES 1      *********      -->
+  <div class="features-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto">
+          <h2 class="title">Unsere Geschäfts-Säulen</h2>
         </div>
       </div>
-      {% endfor %}
+      <div class="row">
+        <div class="col-md-4">
+          <div class="info info-hover">
+            <div class="icon icon-primary">
+              <i class="now-ui-icons ui-2_chat-round"></i>
+            </div>
+            <h4 class="info-title">IT-Wartung</h4>
+            <p class="description">Hier können Sie ca. 30 - 50% ihrer Wartungskosten einsparen und somit andere wichtige Projekte vorantreiben.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="info info-hover">
+            <div class="icon icon-success">
+              <i class="now-ui-icons business_chart-pie-36"></i>
+            </div>
+            <h4 class="info-title">Managed Security Services</h4>
+            <p class="description">SOC-as-a-Service“ inklusive „IT-Spezialisten-as-a-Service“, und das nicht nur für die IT sondern auch für den Produktionsbereich (OT - Operational Technology).</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="info info-hover">
+            <div class="icon icon-warning">
+              <i class="now-ui-icons design-2_ruler-pencil"></i>
+            </div>
+            <h4 class="info-title">Schulungen</h4>
+            <p class="description">Schulungen ganz individuell für Endanwender, unserer Zeit entsprechend flexibel: Lernen via Smart Phone, Laptop usw., wann und wo der Mitarbeiter möchte!</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</section>
-
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-
-  // Counter up
-  if ($(".counter").length) {
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
-  }
-</script>
+  <!--     *********    END FEATURES 1      *********      -->
+  <!--     *********     FEATURES 4      *********      -->
+  <div class="features-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h2 class="title">Coming home, a pleasure!</h2>
+          <h4 class="description">Havenly is a convenient, personal and affordable way to redecorate your home room by room. Collaborate with our professional interior designers on our online platform. </h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card card-background card-raised" data-background-color style="background-image: url('assets/img/bg24.jpg')">
+            <div class="info">
+              <div class="icon icon-white">
+                <i class="now-ui-icons business_bulb-63"></i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">Collaborate on ideas</h4>
+                <p>Your designer will come back to you with an initial set of ideas.</p>
+                <a href="#pablo" class="ml-3">Find more...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-background card-raised" data-background-color style="background-image: url('assets/img/bg23.jpg')">
+            <div class="info">
+              <div class="icon icon-white">
+                <i class="now-ui-icons business_badge"></i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">Pick your designer</h4>
+                <p>Havenly interior designers are vetted professionals and real people.</p>
+                <a href="#pablo">Find more...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-background card-raised" data-background-color style="background-image: url('assets/img/bg25.jpg')">
+            <div class="info">
+              <div class="icon icon-white">
+                <i class="now-ui-icons location_map-big"></i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">Visualize your room</h4>
+                <p>Share a floor plan, and we'll create a visualization of your room.</p>
+                <a href="#pablo" class="ml-3">Find more...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--     *********    END FEATURES 4      *********      -->
+  <!--     *********     FEATURES 5      *********      -->
+  <div class="features-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h2 class="title">Radar Smart Solution</h2>
+          <h4 class="description">RadarServices ist Europas führender Anbieter für kontinuierliches IT Security Monitoring</h4>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary icon-circle">
+              <i class="now-ui-icons location_world"></i>
+            </div>
+            <div class="description">
+              <h4 class="info-title">Plug</h4>
+              <p>Radar Smart Solution besteht aus einer Hardware, der „Radar Smart Box“, die für die Datensammlung da ist. Die Verbindung der Radar Smart Box zu Ihrem Unternehmensnetzwerk ist einfach herzustellen.</p>
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary icon-circle">
+              <i class="now-ui-icons sport_user-run"></i>
+            </div>
+            <div class="description">
+              <h4 class="info-title">Detect</h4>
+              <p>Nach der Implementierung der Radar Smart Box werden Daten, die potentiell auf Sicherheitsrisiken hindeuten können, aus mehreren Quellen innerhalb des Netzwerks und auch von extern automatisiert gesammelt und analysiert.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="tablet-container">
+            <img src="https://www.radarservices.com/wp-content/uploads/2019/03/Trichter-rgb-smart3-abbr-01.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--     *********    END FEATURES 5      *********      -->
+</div>
+<div class="cd-section" id="contactus">
+  <!--     *********    CONTACT US 1     *********      -->
+  <div class="contactus-1 section-image" style="background-image: url('https://pixnio.com/free-images/2017/05/12/2017-05-12-21-04-45-900x405.jpg')">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h2 class="title">Kommen wir ins Gespräch</h2>
+          <h4 class="description">Sie wollen mehr Information? Sie benötigen ein individuelles Angebot für Ihre IT?</h4>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="now-ui-icons location_pin"></i>
+            </div>
+            <div class="description">
+              <h4 class="info-title">Standort</h4>
+              <p class="description"> Birknergasse 3
+                <br> 2372 Giesshübl
+                <br> Austria
+              </p>
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary">
+              <i class="now-ui-icons tech_mobile"></i>
+            </div>
+            <div class="description">
+              <h4 class="info-title">Telefonisch</h4>
+              <p class="description"> Thomas Wenhardt
+                <br> + 43 650 5552580
+                <br> Mo - Fr, 8:00-22:00
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 ml-auto mr-auto">
+          <div class="card card-contact card-raised">
+            <form role="form" id="contact-form1" method="post">
+              <div class="card-header text-center">
+                <h4 class="card-title">Kontakt</h4>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-6 pr-2">
+                    <label>Vorname</label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="now-ui-icons users_circle-08"></i></span>
+                      </div>
+                      <input type="text" class="form-control" placeholder="Vorname..." aria-label="First Name..." autocomplete="given-name">
+                    </div>
+                  </div>
+                  <div class="col-md-6 pl-2">
+                    <div class="form-group">
+                      <label>Nachname</label>
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"><i class="now-ui-icons text_caps-small"></i></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Nachname..." aria-label="Last Name..." autocomplete="family-name">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label>E-Mail</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="now-ui-icons ui-1_email-85"></i></span>
+                    </div>
+                    <input type="email" class="form-control" placeholder="E-Mail Adresse eingeben..." autocomplete="email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label>Nachricht</label>
+                  <textarea name="message" class="form-control" id="message" rows="6"></textarea>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox">
+                        <span class="form-check-sign"></span>
+                        I'm not a robot
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <button type="submit" class="btn btn-primary btn-round pull-right">Absenden</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
