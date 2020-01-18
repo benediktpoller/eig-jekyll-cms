@@ -1,4 +1,22 @@
 <div class="cd-section" id="contactus">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init('user_uigqbCUWfs8pivPIOwC8Z');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form1').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate the contact number value
+                this.contact_number.value = Math.random() * 100000 | 0;
+                emailjs.sendForm('contact_service', 'contact_template', this);
+            });
+        }
+    </script>
+
     <!--     *********    CONTACT US 1     *********      -->
     <div class="contactus-1 section-image" style="background-image: url('/assets/img/contact.jpg')">
         <div class="container">
@@ -34,7 +52,8 @@
                 </div>
                 <div class="col-md-5 ml-auto mr-auto">
                     <div class="card card-contact card-raised">
-                        <form role="form" id="contact-form1" method="post">
+                        <form role="form" id="contact-form1">
+                            <input type="hidden" name="contact_number">
                             <div class="card-header text-center">
                                 <h4 class="card-title">Kontakt</h4>
                             </div>
@@ -48,7 +67,7 @@
                                                         class="now-ui-icons users_circle-08"></i></span>
                                             </div>
                                             <input type="text" class="form-control" placeholder="Vorname..."
-                                                   aria-label="First Name..." autocomplete="given-name">
+                                                   aria-label="First Name..." autocomplete="given-name" name="given-name">
                                         </div>
                                     </div>
                                     <div class="col-md-6 pl-2">
@@ -60,7 +79,7 @@
                                                             class="now-ui-icons text_caps-small"></i></span>
                                                 </div>
                                                 <input type="text" class="form-control" placeholder="Nachname..."
-                                                       aria-label="Last Name..." autocomplete="family-name">
+                                                       aria-label="Last Name..." autocomplete="family-name" name="family-name">
                                             </div>
                                         </div>
                                     </div>
@@ -73,7 +92,7 @@
                                                     class="now-ui-icons ui-1_email-85"></i></span>
                                         </div>
                                         <input type="email" class="form-control"
-                                               placeholder="E-Mail Adresse eingeben..." autocomplete="email">
+                                               placeholder="E-Mail Adresse eingeben..." autocomplete="email" name="email">
                                     </div>
                                 </div>
                                 <div class="form-group">
