@@ -34,6 +34,21 @@
                 </div>
                 <div class="col-md-5 ml-auto mr-auto">
                     <div class="card card-contact card-raised">
+
+                        <form id="contact-form">
+                            <input type="hidden" name="contact_number">
+                            <label>Vorname</label>
+                            <input type="text" name="given-name">
+                            <label>Nachname</label>
+                            <input type="text" name="family-name">
+                            <label>Email</label>
+                            <input type="email" name="email">
+                            <label>Nachricht</label>
+                            <textarea name="message"></textarea>
+                            <input type="submit" value="Send">
+                        </form>
+
+
                         <form role="form" id="contact-form1">
                             <input type="hidden" name="contact_number">
                             <div class="card-header text-center">
