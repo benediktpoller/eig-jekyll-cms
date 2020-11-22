@@ -63,7 +63,7 @@ img.logo {
   font-weight: bold;
 }
 
-iframe {
+iframe, .image-container {
   max-width: 100%;
 }
 
