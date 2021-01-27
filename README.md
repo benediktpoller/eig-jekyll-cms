@@ -1,3 +1,9 @@
+# EIG
+
+```sh
+$ bundle exec jekyll serve --livereload
+```
+
 # About
 
 This Jekyll Demo site is meant to showcase how a typical site can be created with Jekyll. It features a mix of developer friendly aspects such as galleries built from the file system, along with Client friendly features using Netlify CMS for basic editing that a client can login and update content via a web UI.

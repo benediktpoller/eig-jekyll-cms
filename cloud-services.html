@@ -2,7 +2,7 @@
 layout: page
 title: Cloud Services
 subtitle: Europäische Cloud Services mit deutschsprachigem Support
-bg: /assets/img/schulung-bg.png
+bg: /assets/img/cloud-2.jpg
 permalink: /cloud-services/
 custom_head_owl: true
 custom_head_counterup: true
@@ -12,78 +12,124 @@ custom_head_counterup: true
 
 <div class="section">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12 ml-auto mr-auto text-center">
-        <h2 class="title">Cloud Services</h2>
-        <h4 class="description">Europäische Cloud Services mit deutschsprachigem Support</h4>
-      </div>
-    </div>
 
-    <div class="separator-line separator-primary"></div>
+    {% include page_title.html
+    title="Cloud Services"
+    description="Europäische Cloud Services mit deutschsprachigem Support"
+    %}
+
     <div class="row">
-      <div class="col-md-8 ml-auto mr-auto">
+      <div class="col-md-12 ml-auto mr-auto">
         <p>
           Es handelt sich um Europäische Cloud Services mit deutschsprachigem Support, simpler Bereitstellung,
           transparent und kostengünstig. Diese Cloud Services haben ihren Ursprung in der Schweiz, es gibt
           Tochtergesellschaften in Deutschland und in Österreich (je ein Rechenzentrum in OÖ und NÖ).
         </p>
 
-        <ul>
-          <li>White labelbar - mandantenfähig</li>
-          <li>Europäische Cloud, programmiert mit Open Source Software: Damit hat die USA keine rechtliche Möglichkeit,
-            auf Daten unserer Clouds zuzugreifen, was allerdings bei Google, Microsoft, AWS möglich ist, auch wenn deren
-            Rechenzentren in Europa stehen. Siehe Hinweise bzgl. US CLOUD Act und US PATRIOT Act weiter unten.
-          <li>neben Server-, Network-, Firewall- und Storage Services steht auch die Möglichkeit zur Verfügung,
-            intensive Rechenleistungen via GPU (Nvidia) zu provisionieren
-          </li>
-          <li>Preise ausschliesslich &quot;per usage&quot;, keine versteckten Kosten (Leitungen, etc)</li>
-          <li>IOT-Plattform inkl. künstlicher Intelligenz, prädiktive Steuerung, Erkennung von Anomalien, Alarmierung,
-            White Label, uam
-          </li>
-        </ul>
+        {% include page_info.html
+        title="White labelbar"
+        description="Mandantenfähig"
+        %}
 
-        <p>
-          Über einen WebCall wissen Sie in kürzester Zeit über die unzähligen Möglichkeiten Bescheid.
-        </p>
+        {% include page_info.html
+        title="Europäische Cloud"
+        description="Programmiert mit Open Source Software: Damit hat die USA keine rechtliche Möglichkeit,
+        auf Daten unserer Clouds zuzugreifen, was allerdings bei Google, Microsoft, AWS möglich ist, auch wenn deren
+        Rechenzentren in Europa stehen. Siehe Hinweise bzgl. CLOUD Act und USA PATRIOT Act weiter unten."
+        %}
 
-        <div class="ml-auto mr-auto text-center">
-          <h2 class="title">CLOUD Act</h2>
-          <h4 class="description">Warum eine Europäische Cloud? </h4>
-          <div class="section-space"></div>
-        </div>
+        {% include page_info.html
+        title="Intensive Rechenleistungen via GPU"
+        description="Neben Server-, Network-, Firewall- und Storage Services steht auch die Möglichkeit zur Verfügung,
+        intensive Rechenleistungen via GPU (Nvidia) zu provisionieren"
+        %}
 
-        <p>
-          Der CLOUD Act (Clarifying Lawful Overseas Use of Data Act) ist ein US- amerikanisches Gesetz. Es
-          verpflichtet amerikanische Internet-Firmen und IT- Dienstleister, US-Behörden auch dann Zugriff auf
-          gespeicherte Daten zu gewährleisten, wenn die Speicherung nicht in den USA erfolgt.
-        </p>
+        {% include page_info.html
+        title="Preise ausschliesslich &quot;per usage&quot;"
+        description="Keine versteckten Kosten (Leitungen, etc)"
+        %}
 
-        <div class="ml-auto mr-auto text-center">
-          <h2 class="title">US PATRIOT Act</h2>
-          <h4 class="description">Auswirkungen auf den Schutz personenbezogener Daten und geistigen Eigentums </h4>
-          <div class="section-space"></div>
-        </div>
+        {% include page_info.html
+        title="IOT-Plattform inkl. künstlicher Intelligenz"
+        description="prädiktive Steuerung, Erkennung von Anomalien, Alarmierung, White Label, uam"
+        %}
 
-        <p>
-          Die Bestimmungen des PATRIOT Act erlauben US-Behörden wie dem FBI, der NSA oder der CIA nicht nur den Zugriff
-          ohne richterliche Anordnung auf die Server von US-Unternehmen. Auch ausländische Töchter sind nach dem US -
-          Gesetz verpflichtet, Zugriff auf ihre Server zu gewähren; selbst dann, wenn lokale Gesetze dies untersagen.
-        </p>
-        <p>
-          In allen Fällen, in denen personenbezogene Daten auf Servern von US-Töchtern gespeichert werden, verstösst
-          dies nach Einschätzung des seinerzeitigen Datenschutzbeauftragten des Landes Schleswig-Holstein, Thilo
-          Weichert, gegen europäische Gesetze. Diese untersagen die Weitergabe personenbezogener Daten, wenn diese den
-          Bereich der EU verlassen.
-        </p>
-        <p>
-          EU-Unternehmen, die solche Daten auf Servern von US-Tochterunternehmen speichern oder durch diese verarbeiten
-          lassen, verstoßen nach Weichert gegen europäische und nationale Gesetze.
-        </p>
       </div>
     </div>
   </div>
 </div>
 
-{% include section.html title="Über einen WebCall wissen Sie in kürzester Zeit über die unzähligen Möglichkeiten Bescheid." %}
+{% include section.html
+background="cloud-1.jpg"
+title="Buchen Sie einen unverbindlichen Webcall"
+description="Über einen WebCall wissen Sie in kürzester Zeit über die unzähligen Möglichkeiten Bescheid."
+%}
+
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 ml-auto mr-auto">
+
+        <div class="ml-auto mr-auto text-center">
+          <h2 class="title">Warum eine Europäische Cloud?</h2>
+          <div class="section-space"></div>
+        </div>
+
+        <h3>CLOUD Act</h3>
+
+        <div class="card card-blog">
+          <div class="card-body">
+            <h6 class="category text-warning">
+              <i class="now-ui-icons business_bulb-63"></i>
+              Info
+            </h6>
+            <p class="card-description">
+              Der CLOUD Act (Clarifying Lawful Overseas Use of Data Act) ist ein US- amerikanisches Gesetz. Es
+              verpflichtet amerikanische Internet-Firmen und IT- Dienstleister, US-Behörden auch dann Zugriff auf
+              gespeicherte Daten zu gewährleisten, wenn die Speicherung nicht in den USA erfolgt.
+            </p>
+          </div>
+        </div>
+
+        <p>
+          Weitere Informationen unter <a href="https://de.wikipedia.org/wiki/CLOUD_Act">CLOUD Act auf
+          Wikipedia</a>.
+        </p>
+
+        <div class="section-space"></div>
+        <h3>USA PATRIOT Act</h3>
+
+        <div class="card card-blog">
+          <div class="card-body">
+            <h6 class="category text-warning">
+              <i class="now-ui-icons business_bulb-63"></i>
+              Info
+            </h6>
+            <p class="card-description">
+              Die Bestimmungen des PATRIOT Act erlauben US-Behörden wie dem FBI, der NSA oder der CIA nicht nur den Zugriff
+              ohne richterliche Anordnung auf die Server von US-Unternehmen. Auch ausländische Töchter sind nach dem US -
+              Gesetz verpflichtet, Zugriff auf ihre Server zu gewähren; selbst dann, wenn lokale Gesetze dies untersagen.
+            </p>
+            <p class="card-description">
+              In allen Fällen, in denen personenbezogene Daten auf Servern von US-Töchtern gespeichert werden, verstösst
+              dies nach Einschätzung des seinerzeitigen Datenschutzbeauftragten des Landes Schleswig-Holstein, Thilo
+              Weichert, gegen europäische Gesetze. Diese untersagen die Weitergabe personenbezogener Daten, wenn diese den
+              Bereich der EU verlassen.
+            </p>
+            <p class="card-description">
+              EU-Unternehmen, die solche Daten auf Servern von US-Tochterunternehmen speichern oder durch diese verarbeiten
+              lassen, verstoßen nach Weichert gegen europäische und nationale Gesetze.
+            </p>
+          </div>
+        </div>
+        <p>
+          Weitere Informationen unter <a href="https://de.wikipedia.org/wiki/USA_PATRIOT_Act">USA PATRIOT Act auf
+          Wikipedia</a>.
+        </p>
+
+      </div>
+    </div>
+  </div>
+</div>
 
 {% include contact.html %}
