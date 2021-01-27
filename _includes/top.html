@@ -1,6 +1,6 @@
 
 <div class="section-space"></div>
-<div class="page-header page-header-small">
+<div class="page-header page-header-small"{% if include.minHeight %} style="min-height: {{ include.minHeight }}"{% endif %}>
     <div class="page-header-image" data-parallax="true"
          style="background-image: url('{{ page.bg }}');">
     </div>
