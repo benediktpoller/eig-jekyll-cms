@@ -76,3 +76,12 @@ iframe, .image-container {
 .sections-page .page-header {
   min-height: 90vh;
 }
+
+
+.section a {
+  color: #3885b7;
+}
+
+.section .separator-line.separator-primary {
+  background-color: #3885b7;
+}
