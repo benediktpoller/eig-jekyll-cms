@@ -1,7 +1,7 @@
 # Created by https://www.gitignore.io/api/jekyll,windows
 
 .DS_Store
-
+.idea/
 ### Jekyll ###
 _site/
 .sass-cache/
